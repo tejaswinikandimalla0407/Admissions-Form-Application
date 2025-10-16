@@ -19,7 +19,7 @@ spec:
         - containerPort: 3028
         env:
         - name: MONGO_URI
-          value: "mongodb://admissions-mongo-service:27017/studentDB"
+          value: "mongodb://mongodb-service:27017/studentDB"
         - name: PORT
           value: "8080"
         - name: NODE_ENV
