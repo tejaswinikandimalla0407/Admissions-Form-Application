@@ -11,6 +11,8 @@ spec:
     metadata:
       labels:
         app: admissions-app
+      annotations:
+        ad.datadoghq.com/admissions-app.logs: '[{"source":"nodejs","service":"admissions-service"},{"source":"nodejs","service":"admissions-app"}]'
     spec:
       containers:
       - name: admissions-app
