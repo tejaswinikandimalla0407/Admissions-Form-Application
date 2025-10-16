@@ -23,7 +23,7 @@ spec:
         - name: MONGO_URI
           value: "mongodb://mongodb-service:27017/studentDB"
         - name: PORT
-          value: "8080"
+          value: "3028"
         - name: NODE_ENV
           value: "production"
 
@@ -36,7 +36,7 @@ spec:
         - name: DD_ENV
           value: "production"
         - name: DD_SERVICE
-          value: "sujitha-app"
+          value: "admissions-app"
         - name: DD_VERSION
           value: "1.0.0"
 ---
